@@ -1,0 +1,51 @@
+.container{
+    width: 1200px;
+    margin: auto;
+    font-family: Arial;
+    line-height:1.0cm;
+    border: 2px solid beige;
+    border-radius: 2px;
+}
+
+header{
+    background-image: url(../images/download\ \(6\).jfif) ;
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size:cover;
+    width: 1200px;
+    height: 400px;
+    
+}
+    
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    word-spacing: 10cm;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+
+}
+
+.products div{
+    border: 2px solid bisque;
+    border-radius: 2px;
+    width: 400px;
+    height: 450px;
+    margin-bottom: 10px;
+    justify-content: center;
+    background-color: bisque;
+    text-align: center;
+
+}
+
+.products img{
+    padding: 20px;
+    
+}
+
+
