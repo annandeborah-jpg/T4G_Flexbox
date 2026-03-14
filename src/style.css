@@ -26,7 +26,7 @@ body{
     background-repeat:no-repeat ;
     background-position: center;
     background-size:cover;
-    height: 500px;
+    height: 550px;
 }
 
 .flex{
@@ -53,6 +53,7 @@ body{
     padding: 10px;
     gap: 80px;
     background-color: white;
+    
 }
 
 .products div{
@@ -95,23 +96,75 @@ body{
 }
 
 .staff{
-    background:#F5F3F0;
-    padding: 10px;
+    background:#e2dada;
+    padding: 20px;
     text-align:center;
 }
 
-.gallery{
-    display: flex;
-    justify-content: center;
-    border: 3px solid #A67C52;
-    padding: 10px;
-    gap: 80px;
-    margin-bottom: 10px;
-    background-color: white;
+.staff h1{
+    color:#5A3E2B ;
+    text-decoration: underline;
 }
 
-.gallery img{
-    width: 268px;
-    height: 400px;
+.info{
+    display: flex;
+    gap: 80px;
+    padding: 0px;
+    justify-content:left;
+}
 
+.info div{
+    border-radius: 8px;
+    padding: 0px;
+    font-size: 18px;
+    color:#030303 ;
+    line-height: 2.0;
+    text-align: left;
+}
+
+.description{
+    margin-top: 20px;
+}
+
+.description h1{
+    text-decoration: none;
+}
+
+.end{
+    display: flex;
+    background-color:#A67C52 ;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.gallery{
+    display:flex;
+    justify-content:space-between;
+    border: 8px solid #A67C52;
+    background-color: #F5F3F0;
+}
+
+.staff-card img{
+   width: 260px;
+   height:350px;
+   object-fit:cover;
+}
+
+.staff-text:hover{
+   background:#C9A66B;
+}
+.staff-card{
+    position: relative;
+}
+.staff-text{
+position:absolute;
+bottom:0;
+left:0;
+width:100%;
+background:rgba(90,62,43,0.85);
+color:white;
+padding:10px;
+text-align:center;
 }
